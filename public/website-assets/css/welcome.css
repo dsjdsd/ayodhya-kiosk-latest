@@ -1,0 +1,196 @@
+.home_main_div {
+    width: 550px;
+    height: 732px;
+    margin: auto;
+    border: 40px solid #000;
+    border-radius: 29px;
+}
+
+
+/*---------------------- welcome ------------------------------*/
+.welcome_banner_img {
+    width: 100%;
+    margin-top: -50px;
+}
+
+.cover {
+    background-image: url(../image/welcome.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.header {
+    background-color: #565D6F;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.ribbon {
+    background-color: #EC4C2F;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ribbon:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    top: 20px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 17px solid #EC4C2F;
+}
+
+
+.ribbon-text {
+    color: white;
+    padding-right: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 1;
+    text-decoration: none;
+}
+.ribbon-text:hover {
+    color: white;
+    padding-right: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 1;
+
+}
+
+
+.welcome_logo_div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.welcome_content_div {
+    width: 470px;
+    margin: auto;
+}
+
+.welcome_heading {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    text-align: left;
+    color: #fff;
+    padding-top: 21vh;
+    width: 360px;
+    margin: auto;
+}
+
+.welcome_search {
+    width: 282px;
+    height: 27px;
+    border-radius: 4.75px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-left: -10px;
+    font-size: 10px;
+    color: #B4B4B4;
+}
+
+.welcome_btn_css {
+    width: 49.51px;
+    height: 27.41px;
+    font-family: system-ui;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14.26px;
+    text-align: left;
+    background: #E85722;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.search_icon_css {
+    padding: 9px 8px;
+    background: #E85722;
+    color: #fff;
+    border-radius: 4.75px;
+    position: relative;
+    font-size: 10px !important;
+}
+
+.welcome_select_div {
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome_last_div {
+    width: 100%;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 30px;
+    background-color: #fff;
+    padding-top: 30px;
+}
+
+.welcome_card {
+    width: 77.71px;
+    height: 77.71px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D5D5D5;
+
+}
+
+.welcome_image_name {
+    font-family: system-ui;
+    font-size: 10.63px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    color: #1F1F1F;
+    margin-bottom: 9px;
+}
+
+.welcome_sponsor {
+    font-family: Prociono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.2px;
+    text-align: center;
+    color: #050505;
+    margin-bottom: 8px;
+}
+
+.footer_css {
+    font-family: system-ui;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 10.89px;
+    text-align: center;
+    color: #343434;
+}
+
+.footer_border {
+    border-top: 1px solid #BABABA;
+    width: 295px;
+    margin: auto;
+    padding-bottom: 5px;
+}

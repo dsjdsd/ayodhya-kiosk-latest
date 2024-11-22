@@ -1,0 +1,193 @@
+.home_main_div {
+    width: 550px;
+    height: 732px;
+    margin: auto;
+    border: 40px solid #000;
+    border-radius: 29px;
+}
+
+.welcome_banner_img {
+    width: 100%;
+    margin-top: -50px;
+}
+
+.cover {
+    background-image: url(../image/welcome_new.png);
+    background-size: cover;
+    text-align: center;
+}
+
+
+.header {
+    background-color: #565D6F;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.ribbon {
+    background-color: #EC4C2F;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ribbon:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    top: 20px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 17px solid #EC4C2F;
+}
+
+
+.ribbon-text {
+    color: white;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.ribbon-text:hover {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 1;
+    text-decoration: none;
+}
+
+
+
+
+.welcome_image_name {
+    font-family: system-ui;
+    font-size: 10.63px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    color: #1F1F1F;
+    margin-bottom: 9px;
+}
+
+.welcome_sponsor {
+    font-family: Prociono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.2px;
+    text-align: center;
+    color: #050505;
+    margin-bottom: 8px;
+}
+
+
+
+.wrapper {
+    padding: 30px 0;
+    height: 227px;
+}
+
+/* Default slide */
+.center-slider .slick-slide {
+    background-color: transparent !important;
+    color: #FFF;
+    height: 200px;
+    margin: 0 0px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.8);
+    transition: all 0.4s ease-in-out;
+    width: 130px !important;
+    padding: 10px;
+    object-fit: cover;
+    border-radius: 20px !important;
+}
+
+.center-slider .slick-slide,
+.center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned)~.slick-cloned[aria-hidden="true"] {
+    transform: scale(0.8, 0.8);
+    transition: all 0.4s ease-in-out;
+}
+
+/* Active center slide (You can change anything here for cenetr slide)*/
+.center-slider .slick-center,
+.center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"])+.slick-cloned[aria-hidden="true"] {
+    transform: scale(1.1);
+    background-color: transparent !important;
+}
+
+.center-slider .slick-current.slick-active {
+    transform: scale(1.1);
+    width: 300px !important;
+    background-color: transparent !important;
+}
+
+.slick-next,
+.slick-prev {
+    z-index: 5;
+}
+
+.slider_img {
+    border-radius: 10px !important;
+}
+
+.footer_css {
+    font-family: system-ui;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 10.89px;
+    text-align: center;
+    color: #343434;
+}
+
+.footer_border {
+    border-top: 1px solid #BABABA;
+    width: 295px;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.card_div {
+    background: linear-gradient(90deg, #4A90E2, #0052CC);
+    border-radius: 12px;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.travel_heading {
+    font-family: system-ui;
+    font-size: 12.2px;
+    font-weight: 400;
+    line-height: 14.3px;
+    text-align: left;
+    width: 270px;
+    margin: 10px auto;
+}
+
+.width_css {
+    height: calc(691px - 131px);
+}
+/* .footer_fix{
+    position: fixed;
+    bottom: 29px;
+    width: 470px;
+} */

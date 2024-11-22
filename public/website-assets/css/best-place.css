@@ -1,0 +1,179 @@
+.home_main_div {
+    width: 550px;
+    height: 732px;
+    margin: auto;
+    border: 40px solid #000;
+    border-radius: 29px;
+}
+
+.header {
+    background-color: #565D6F;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.ribbon {
+    background-color: #EC4C2F;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ribbon:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    top: 20px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 17px solid #EC4C2F;
+}
+
+
+.ribbon-text {
+    color: white;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.ribbon-text:hover {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 1;
+
+}
+
+.place_bg {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+    text-align: center;
+    background-color: #fffae9;
+    padding: 0 25px;
+    height: calc(690px - 130px) !important;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+.place_bg::-webkit-scrollbar {
+    display: none;
+}
+.welcome_logo_div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.place_heading {
+    font-family: Rosario;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.82px;
+    text-align: left;
+    color: #000;
+}
+
+.place_card_div {
+    width: 124px;
+    height: 76px;
+    /* left: 138px; */
+    position: relative;
+    animation: animateleft 1s
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.place_card_div_even {
+    width: 124px;
+    height: 76px;
+    position: relative;
+    animation: animateright 1s;
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+
+.place_card_text {
+    width: 124px;
+    height: 14px;
+    top: 62px;
+    padding: 3px;
+    gap: 10px;
+    opacity: 0px;
+    font-family: system-ui;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 8.2px;
+    text-align: center;
+    background: #E85722;
+    color: #fff;
+}
+
+
+
+
+
+.footer_main_div {
+    bottom: 0;
+}
+
+.welcome_sponsor {
+    font-family: system-ui;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.2px;
+    text-align: center;
+    color: #050505;
+    margin-bottom: 8px;
+}
+
+.footer_css {
+    font-family: system-ui;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 10.89px;
+    text-align: center;
+    color: #343434;
+}
+
+.footer_border {
+    border-top: 1px solid #BABABA;
+    width: 295px;
+    margin: auto;
+    padding-bottom: 5px;
+}
